@@ -1,0 +1,30 @@
+1st Install Git in your OC.
+Then Configure github:
+
+Set Remort User Name and Email:
+
+-> Set remort username: git config --global user.name "nazmulkhanliton"
+-> Set remort email: git config --global user.email "liton079@gmail.com"
+-> Show remort email: git config --global user.email
+-> Edit remort email and user name: git config --global --edit
+
+-> initial git command: git init
+
+-> Add single file to git: git add fileName.java
+-> All file stageby one command: git add .
+-> For git status command: git status
+-> Git commit log: git log
+-> Git commit command: git commit -m "initial commit"
+
+-> Create new Branch: git branch branchName
+-> Switch to other branch: git checkout branchName
+
+
+################################################################
+Upload to Github
+
+-> Show remot repo: git remote -v
+-> set remot github repo: 
+	1: git remote add origin link
+	2: git branch -M master
+	3: git push origin master 
